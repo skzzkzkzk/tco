@@ -14412,12 +14412,12 @@ task.spawn(function()
     if ShowCredits.Value then
         Library:Notify('RomazDev Hub v2.9 Loaded!', 5)
         Library:Notify('Credits to pealz/RomazDev/peaiz!', 5)
-        Library:Notify("Discord invite copied to clipboard! .gg/zSuZN5e6MZ", 8)
+        Library:Notify("loading", 8)
     end
 
     if isOwner then
         if plr.Character then
-            Library:Notify("welcome back, fatty", 5)
+            Library:Notify("hi daddy", 5)
         end
     end
 end)
