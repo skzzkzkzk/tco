@@ -248,7 +248,7 @@ brickname = isog and "Cube" or "Brick"
 playerGui = plr:WaitForChild("PlayerGui")
 antiConnections = {}
 OWNER_ID = {
-    9763171531,
+    4091480137,
     8615658150,
 }
 
