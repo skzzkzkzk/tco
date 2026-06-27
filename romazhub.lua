@@ -249,7 +249,7 @@ playerGui = plr:WaitForChild("PlayerGui")
 antiConnections = {}
 OWNER_ID = {
     4091480137,
-    8615658150,
+    4607990190,
 }
 
 ROMAZHUB_PREMIUM_GAMEPASS_ID = 1635806447
@@ -14364,7 +14364,7 @@ Library:GiveSignal(RunService.Heartbeat:Connect(function(dt)
         end)
         playerCount = #Players:GetPlayers()
         Library:SetWatermark(string.format(
-            'RomazDev Hub v2.9 | %d fps | %d ms | %d players | %s',
+            'RomazDev Hub v3 | %d fps | %d ms | %d players | %s',
             FPS, ping, playerCount, _wmRoleStr
         ))
     end
@@ -14410,14 +14410,14 @@ task.spawn(function()
     SetupAutoRejoin()
 
     if ShowCredits.Value then
-        Library:Notify('RomazDev Hub v2.9 Loaded!', 5)
-        Library:Notify('Credits to pealz/RomazDev/peaiz!', 5)
-        Library:Notify("loading", 8)
+        Library:Notify('RomazDev Hub v3 Loaded!', 5)
+        Library:Notify('made by no one', 5)
+        Library:Notify("skz is tuff", 8)
     end
 
     if isOwner then
         if plr.Character then
-            Library:Notify("hi daddy", 5)
+            Library:Notify("hi chud", 5)
         end
     end
 end)
